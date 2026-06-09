@@ -1,0 +1,16 @@
+/* حددنا اسم الأب .product عشان نضمن إن التنسيق أقوى من أي كلاس تاني */
+.product .mainCartBtn {
+  background-color: #111111 !important; /* اللون الأسود الفخم للزرار */
+  color: #ffffff !important; /* لون الخط أبيض نصع */
+  border: none !important; /* إخفاء أي حدود قديمة */
+  font-weight: 600 !important;
+  padding: 10px !important;
+  border-radius: 4px !important;
+  transition: background-color 0.3s ease !important;
+}
+
+/* تأثير الـ Hover لما الماوس يقف على الزرار */
+.product .mainCartBtn:hover {
+  background-color: #b11f1f !important; /* يقلب أحمر داكن أنيق يتماشى مع البانر واللوجو */
+  color: #ffffff !important;
+}

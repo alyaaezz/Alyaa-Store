@@ -1,0 +1,76 @@
+.footerMain {
+  background-color: #f8f9fa; /* لون رمادي فاتح مريح وهادئ */
+  border-top: 1px solid #e9ecef;
+  margin-top: 50px;
+}
+
+.footerTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111; /* أسود فخم زي أزرار السلة والناف بار */
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* خط ديكور صغير تحت عنوان كل عمود */
+.footerTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #b11f1f; /* لمسة باللون الأحمر لمطابقة اللوجو والهوفر */
+}
+
+.footerText {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footerLink {
+  color: #666666;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.footerLink:hover {
+  color: #b11f1f; /* يقلب أحمر عند الهوفر */
+  padding-left: 5px; /* تأثير حركة لطيف */
+}
+
+.socialIcons a {
+  color: #111111;
+  background-color: #ffffff;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.socialIcons a:hover {
+  background-color: #111111;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.copyrightBar {
+  background-color: #eeeeee; /* شريط سفلي أغمق درجة بسيطة */
+  padding: 15px 0;
+  font-size: 13px;
+  color: #555555;
+  border-top: 1px solid #e3e3e3;
+}
+
+.paymentMethods i {
+  color: #666666;
+}

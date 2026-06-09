@@ -1,0 +1,10 @@
+.styleProduct .btn{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+.styleProduct:hover .btn{
+    opacity: 1;
+    transform: translateY(0%);
+}

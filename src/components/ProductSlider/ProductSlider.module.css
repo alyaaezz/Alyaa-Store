@@ -1,0 +1,91 @@
+.sliderContainer {
+  background-color: #f5f5f5;
+  padding: 40px 50px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.sliderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.sliderHeader h2 {
+  font-size: 22px;
+  color: #111;
+  font-weight: bold;
+}
+
+.categoriesFilter span {
+  margin-left: 20px;
+  cursor: pointer;
+  color: #888;
+  font-size: 14px;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.categoriesFilter span:hover {
+  color: #111;
+}
+
+/* الكلاس الخاص بالزرار النشط حالياً */
+.categoriesFilter .activeTab {
+  color: #111 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #111;
+}
+
+.slideCard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.imageWrapper {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain; /* يمنع تشوه أو قص صور المنتجات */
+  display: block;
+}
+
+.slideCard h3 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.priceContainer {
+  margin-bottom: 8px;
+}
+
+.price {
+  font-weight: bold;
+  color: #111;
+  font-size: 15px;
+}
+
+.stars {
+  color: #333;
+  font-size: 14px;
+}
+
+/* تعديل حجم ولون أسهم التنقل الخاصة بـ Swiper */
+:global(.swiper-button-next)::after,
+:global(.swiper-button-prev)::after {
+  font-size: 18px !important;
+  color: #333 !important;
+  font-weight: bold;
+}
